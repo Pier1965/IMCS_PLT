@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMCS</string>
+    <string name="CURVA_CC">Constant Curve</string>
+    <string name="btn_help">AIDE</string>
+    <string name="NOTE_esempio">Preloaded Example Data: Mixed 520 cm mast with Gastra Bottom and Amex Top</string>
+    <string name="CURVA_CCFT">Constant Curve - Flex Top</string>
+    <string name="CURVA_FT">Flex Top</string>
+    <string name="CURVA_FTSFT">Flex Top - Super Flex Top</string>
+    <string name="CURVA_HT">Hard Top</string>
+    <string name="CURVA_HTCC">Hard Top - Constant Curve</string>
+    <string name="CURVA_SFT">Super Flex Top</string>
+    <string name="TV_CURVA">COURBURE</string>
+    <string name="TV_FLEX">FLEX</string>
+    <string name="TV_IMCS">IMCS</string>
+    <string name="TV_h01">Hauteur &#188; L [mm]</string>
+    <string name="TV_h02">Hauteur &#189; L [mm]:</string>
+    <string name="TV_h03">Hauteur &#190; L [mm]:</string>
+    <string name="TV_hb">Hauteur Base [mm]:</string>
+    <string name="TV_ht">Hauteur Top [mm]:</string>
+    <string name="TV_prjinfo">Données Test</string>
+    <string name="TV_risultati">RESULTATS</string>
+    <string name="Titolo_graph">Courbure du Mat</string>
+    <string name="btn_risultati">RESULTS</string>
+    <string name="d1">Diamètre &#188; L [mm]:</string>
+    <string name="d2">Diamètre &#189; L [mm]:</string>
+    <string name="d3">Diamètre &#190; L [mm]:</string>
+    <string name="db">Diamètre Base [mm]:</string>
+    <string name="dt">Diamètre Top [mm]:</string>
+    <string name="misure">DEFORMATION</string>
+    <string name="misure_c">Mat Chargé</string>
+    <string name="misure_s">Mat au Repos</string>
+    <string name="title_activity_geometry">Géometrie du Mat</string>
+    <string name="txt_back">Précédent</string>
+    <string name="txt_btn_Nuovo">Nouveau</string>
+    <string name="txt_btn_Vecchio">Fetch Existent</string>
+    <string name="txt_btn_imm">Suivant</string>
+    <string name="txt_calcola">Calculate</string>
+    <string name="txt_edit_idAlbero">Mast Id</string>
+    <string name="txt_edit_marcaAlbero">Marque Mat</string>
+    <string name="txt_ln">Longueur [cm]:</string>
+    <string name="txt_mledit_note">Note</string>
+    <string name="txt_view_Geometria">Dimensions Mat</string>
+    <string name="txt_view_idAlbero">Mat Id</string>
+    <string name="txt_view_marcaAlbero">Marque Mat</string>
+    <string name="txt_view_note">Note</string>
+    <string name="Mess_Help_01">Pour pouvoir comparer les mats entre eux, une norme (dite IMCS)
+        a été mise en place en 1994 pour caractériser leur rigidité. Elle consiste à fixer un poids
+        de 30kg au centre du mat, et de mesurer les déplacement au centre du mat. A partir de cette
+        mesure , on en déduit notamment la rigidité IMCS du mat à l’aide de la formule suivante:\n
+    <b>IMCS = (L)³ / [(déf. au milieu) x (460)²])</b>\n
+    </string>
+    <string name="Mess_Help_02">Le mode Operatoire</string>
+    <string name="Mess_Help_03">Le mode Operatoire</string>
+    <string name="help_title">CALCUL IMCS ET MESURES</string>
+    <string name="TV_Lref">Longeur Reference IMCS [cm]</string>
+</resources>

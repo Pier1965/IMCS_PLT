@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@drawable/sfondosfumato"
+    android:orientation="vertical"
+    tools:context="com.example.pier.imcs.helpActivity">
+    <!-- android:background="@color/bkgndGraph" -->
+
+    <TextView
+        android:id="@+id/help_page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textAlignment="center"
+        android:padding="8dip"
+        android:text="@string/help_title"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dip"
+                android:src="@drawable/imcs_graphic" />
+
+            <TextView
+                android:id="@+id/help_page_intro00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dip"
+                android:text="@string/Mess_Help_00" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dip"
+                android:scaleType="center"
+                android:src="@drawable/vista_lat" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:src="@drawable/vista_albero" />
+
+            <TextView
+                android:id="@+id/help_page_intro0001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dip"
+                android:text="@string/Mess_Help_001" />
+
+            <TextView
+                android:id="@+id/help_page_intro1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dip"
+                android:text="@string/Mess_Help_01" />
+
+            <TextView
+                android:id="@+id/help_page_intro2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dip"
+                android:text="@string/Mess_Help_02" />
+
+            <TextView
+                android:id="@+id/help_page_intro3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dip"
+                android:text="@string/Mess_Help_03" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/hlp_btn_bck"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:text="@string/txt_back" />
+</LinearLayout>

@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">IMCS</string>
+    <string name="txt_btn_Nuovo">Crea Nuovo</string>
+    <string name="txt_btn_Vecchio">Recupera Esistente</string>
+    <string name="txt_view_idAlbero">Identificativo Albero</string>
+    <string name="txt_edit_idAlbero">Identificativo Albero</string>
+    <string name="txt_view_marcaAlbero">Marca Albero</string>
+    <string name="txt_edit_marcaAlbero">Marca Albero</string>
+    <string name="txt_view_note">Note</string>
+    <string name="txt_mledit_note">Note</string>
+    <string name="txt_back">Dietro</string>
+    <string name="txt_calcola">Calcola</string>
+    <string name="txt_btn_imm">Avanti</string>
+    <string name="txt_view_Geometria">Dimensioni Albero</string>
+    <string name="txt_ln">Lunghezza [cm]:</string>
+    <string name="edit_ln" translatable="false">430</string>
+    <string name="db">Diametro Bottom [mm]:</string>
+    <string name="d1">Diametro &#188; L [mm]:</string>
+    <string name="d2">Diametro &#189; L [mm]:</string>
+    <string name="d3">Diametro &#190; L [mm]:</string>
+    <string name="dt">Diametro Top [mm]:</string>
+    <string name="title_activity_geometry">Geometria dell\'Albero</string>
+    <string name="misure">MISURA FRECCE</string>
+    <string name="misure_s">Albero Scarico</string>
+    <string name="misure_c">Albero Carico</string>
+    <string name="TV_hb">Altezza Bottom [mm]:</string>
+    <string name="TV_h01">Altezza &#188; L [mm]:</string>
+    <string name="TV_h02">Altezza &#189; L [mm]:</string>
+    <string name="TV_h03">Altezza &#190; L [mm]:</string>
+    <string name="TV_ht">Altezza Top [mm]:</string>
+    <string name="btn_risultati">RISULTATI</string>
+    <string name="btn_help">AIUTO</string>
+    <string name="TV_IMCS">IMCS</string>
+    <string name="TV_FLEX">FLEX</string>
+    <string name="TV_CURVA">CURVA</string>
+    <string name="CURVA_HT">Hard Top</string>
+    <string name="CURVA_HTCC">Hard Top - Constant Curve</string>
+    <string name="CURVA_CC">Constant Curve</string>
+    <string name="CURVA_CCFT">Constant Curve - Flex Top</string>
+    <string name="CURVA_FT">Flex Top</string>
+    <string name="CURVA_FTSFT">Flex Top - Super Flex Top</string>
+    <string name="CURVA_SFT">Super Flex Top</string>
+    <string name="Titolo_graph">Curva Albero</string>
+    <string name="TV_prjinfo">Dati Test</string>
+    <string name="TV_risultati">RISULTATI</string>
+    <string name="Mess_Help_00">
+        <b>PROCEDURA</b>\n
+Per effettuare le misurazioni necessarie per il calcolo dell\'IMCS e del Flex, bisogna procedere nel seguente modo:\n
+1) montare l\'albero e nastrarlo in 5 punti: top, bottom, in mezzeria e nei quarti vicini al top e al bottom;\n
+2) misurare i diametri [mm] in corrispondenza dei punti nastrati;\n
+3) misurare la lunghezza dell\'albero [cm];\n
+4) appoggiare l\'albero con le estremità su due cavalletti;\n
+5) misurare la distanza da terra [cm] del colmo dell\'albero nei cinque punti nastrati;\n
+6) caricare l\'albero con un peso di 30kg in mezzeria;\n
+7) ripetere le operazioni al punto 5);\n
+8) inserire i dati negli appositi campi dell\'applicazione.
+    </string>
+    <string name="Mess_Help_001">
+    <b>Informazioni Utili</b>\n
+        <i>(Fonti Unifiber e Tushingham)</i>\n
+    Gli elementi chiave da considerare quando si sceglie un albero sono:\n
+    1. Curvatura \n
+    2. Rigidità (IMCS) \n
+    3. Percentuale di carbonio \n
+    </string>
+    <string name="Mess_Help_01">
+        <b>Curvatura (Flex)\n</b>
+La curvatura rappresenta la forma dell\'albero sotto carico (armato). Normalmente gli alberi
+hanno una forma conica (più larga in basso che in alto), così la sezione superiore d’albero
+si piega molto di più che la sezione di base. La curvatura di
+un albero altro non è che la differenza di flessione fra la sezione superiore (top)
+e quella inferiore (bottom). In questa app si prende in considerazione la classificazione:\n
+<i>0-6 = Hard top\n
+7-9 = Hard Top/Constant Curve\n
+10-12 = Constant Curve\n
+13-15 =Constant Curve/Flex top\n
+16-18 = Flex Top\n
+19-21 = Flex Top/Super Flex Top\n
+22+ = Super Flex Top</i>\n
+Gli alberi Flex Top (più flessibili in cima) sono costruiti in modo diverso dagli Hard Top
+(più rigidi in cima) e utilizzano un diverso orientamento delle fibre composite e un diverso
+diametro della sezione superiore. Un albero Flex Top ha quindi una penna più sottile di un
+Hard Top che invece deve flettersi meno. Questo non li rende più deboli, ma solo più
+flessibili durante i momenti di maggior stress, quindi non è vero che un albero Flex Top
+dura meno di un Costant Curve o di un Hard Top.\n
+Il Flex viene calcolato come rapporto percentuale tra:\n
+- la differenza tra la flessione ad 1/4 dal top e la flessione ad 1/4 dal bottom;\n
+- la flessione dell\'albero in mezzeria\n
+quando l\'albero stesso viene caricato con un peso di 30kg in mezzeria.
+    </string>
+    <string name="Mess_Help_02">
+        <b>Rigidità (IMCS)</b>\n
+La rigidità IMCS (Indexed Mast Check System) indica quanto flette un albero sotto tensione.
+Normalmente il valore IMCS è classificato tra 6 e 38. Più è alto il valore di IMCS e più
+rigido sarà l\'albero. La maggior parte dei costruttori si attiene ad uno
+standard che correla la lunghezza dell\'albero alla sua rigidità, ad esempio gli alberi 400
+sono spesso IMCS 19, i 430 IMCS 21, i 460 IMCS 25 e i 490 IMCS 29. Per questi alberi, facedo
+due conti, si nota che rimane costante il rapporto tra la freccia in mezzeria e la lunghezza
+dell\'albero (circa MCS 25). In effetti l\'IMCS permette di confrontare tra loro le
+rigidezze di alberi di differente lunghezza raffrontandoli alla lunghezza standard di 460cm
+oppure 465cm (secondo la formula utilizzata). \n
+L\'IMCS varia tipicamente da 11 (alberi morbidi junior) a 36 (alberi rigidi da race).
+Le vele più grandi necessitano infatti di alberi più rigidi per sopportare
+le grandi forze cui sono sottoposte. I loro alberi più lunghi, a causa di questo, dovranno
+essere più rigidi ed avere un IMCS maggiore.\n
+L\'IMCS viene calcolato come rapporto tra:\n
+- la lunghezza dell\'albero (in cm) elevato al cubo;
+- il prodotto tra 460 oppure 465 al quadrato e la freccia di deflessione in mezzeria (in cm)\n
+quando l\'albero stesso viene caricato con un peso di 30kg in mezzeria.
+    </string>
+    <string name="Mess_Help_03"><b>Percentuale di carbonio</b>\n
+Normalmente il contenuto percentuale di carbonio negli alberi varia tra 30 e  100. Più alto è il
+contenuto di carbonio e più reattivo sarà il rig. Più è alta la percentuale di carbonio e
+minore sarà il peso e l inerzia del rig, traducendosi in maggior controllo.
+        La percentuale di carbonio rappresenta la quantità presente nel tessuto dell\’albero.
+La resina epossidica e altri materiali non vengono presi in considerazione.
+Minore sarà il contenuto di carbonio (il che rende gli alberi più economici) e più pesanti
+e meno reattivi saranno dando una sensazione di pesantezza sulle braccia e difficoltà
+in manovra. Tutte le vele saranno maggiormente performanti se si userà un\’alta
+percentuale di carbonio. Si può affermare che l\'80&#x0025; di carbonio garantisce un\'ottima
+performance abbinata ad una lunga durata dell\’albero. Un altro aspetto da tenere in mente
+per massimizzare la durata, in particolare se si pratica il wave-riding, è quello di armare
+le vele con un luff inferiore per non aggiungere troppa tensione alla struttura dell\’albero.
+    </string>
+    <string name="NOTE_esempio">Esempio dati precaricati: Albero Umbertone (Fossacesia Beach) 520 Bottom Gastra Top Amex</string>
+    <string name="help_title">CALCOLO IMCS E MISURE</string>
+    <string name="TV_Lref">Lunghezza Riferimento IMCS [cm]</string>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMCS</string>
+    <string name="CURVA_CC">Constant Curve</string>
+    <string name="btn_help">HELP</string>
+    <string name="NOTE_esempio">Preloaded Example Data: Mixed 520 cm mast with Gastra Bottom and Amex Top</string>
+    <string name="CURVA_CCFT">Constant Curve - Flex Top</string>
+    <string name="CURVA_FT">Flex Top</string>
+    <string name="CURVA_FTSFT">Flex Top - Super Flex Top</string>
+    <string name="CURVA_HT">Hard Top</string>
+    <string name="CURVA_HTCC">Hard Top - Constant Curve</string>
+    <string name="CURVA_SFT">Super Flex Top</string>
+    <string name="TV_CURVA">CURVE</string>
+    <string name="TV_FLEX">FLEX</string>
+    <string name="TV_IMCS">IMCS</string>
+    <string name="TV_h01">High &#188; L [mm]</string>
+    <string name="TV_h02">High &#189; L [mm]:</string>
+    <string name="TV_h03">High &#190; L [mm]:</string>
+    <string name="TV_hb">High at Bottom [mm]:</string>
+    <string name="TV_ht">High at Top [mm]:</string>
+    <string name="TV_prjinfo">Data Test</string>
+    <string name="TV_risultati">RESULTS</string>
+    <string name="Titolo_graph">Mast Bend Curve</string>
+    <string name="btn_risultati">RESULTS</string>
+    <string name="d1">Diameter &#188; L [mm]:</string>
+    <string name="d2">Diameter &#189; L [mm]:</string>
+    <string name="d3">Diameter &#190; L [mm]:</string>
+    <string name="db">Bottom Diameter [mm]:</string>
+    <string name="dt">Top Diameter [mm]:</string>
+    <string name="misure">DEFLECTIONS</string>
+    <string name="misure_c">Loaded Mast</string>
+    <string name="misure_s">Pre-Bend Sag</string>
+    <string name="title_activity_geometry">Mast Geometry</string>
+    <string name="txt_back">Back</string>
+    <string name="txt_btn_Nuovo">New</string>
+    <string name="txt_btn_Vecchio">Fetch Existent</string>
+    <string name="txt_btn_imm">Forward</string>
+    <string name="txt_calcola">Calculate</string>
+    <string name="txt_edit_idAlbero">Mast Id</string>
+    <string name="txt_edit_marcaAlbero">Mast Brand</string>
+    <string name="txt_ln">Length [cm]:</string>
+    <string name="txt_mledit_note">Note</string>
+    <string name="txt_view_Geometria">Mast Dimensions</string>
+    <string name="txt_view_idAlbero">Mast Id</string>
+    <string name="txt_view_marcaAlbero">Mast Brand</string>
+    <string name="txt_view_note">Note</string>
+    <string name="help_title">IMCS EVALUATION AND MEASURES</string>
+      <string name="Mess_Help_00">
+        <b>PROCEDURE</b>\n
+        In order to perform all the measurements necessary to workout the IMCS and Flex values, the
+          following steps have to be carried out:\n
+          1) set up the mast;\n
+          2) measure the mast length [cm];\n
+          3) put some adesive tape around it at 5 points: top, bottom, half and the two
+          quarters of the mast length near the mast top and the bottom;\n
+          4) measure the diameters [mm] at the points where the tape has been positioned;\n
+          5) lay the mast placing  the mast top and bottom on two supports;\n
+          6) measure the distance from the top diameter of the mast to the level ground [cm] in the five
+          points where the pieces of tape are placed;\n
+          7) load the mast in its middle with 30kg;\n
+          8) repeat the instructions at point 6);\n
+          9) fill in the specific application text fields with the data collected.
+    </string>
+   <string name="Mess_Help_001">
+    <b>Useful Info</b>\n
+        <i>(Source Unifiber and Tushingham)</i>\n
+    The key points you have to take into account when choosing a mast are:\n
+    1. Flex \n
+    2. Stiffnes (IMCS) \n
+    3. Carbon fiber percentage \n
+    </string>
+    <string name="Mess_Help_01">
+        <b>Curvature (Flex)\n</b>
+Curvature, aka FLEX, represents the bent shape of the mast when loaded by the rigged sail. Normally the cross sections
+        of the typical mast decrease starting from the bottom tapering toward the top. The larger
+        cross sections at the bottom determine higher stiffness and, as a consequence, less bending
+        of the lower part of the mast with respect to the upper part of it. The FLEX parameter
+        represents the amount of difference between the deformation of the upper part and
+        that of the lower part of a mast. The industry standard terms describing windsurfing mast
+        bend curves are:\n
+<i>0-6 = Hard top\n
+7-9 = Hard Top/Constant Curve\n
+10-12 = Constant Curve\n
+13-15 =Constant Curve/Flex top\n
+16-18 = Flex Top\n
+19-21 = Flex Top/Super Flex Top\n
+22+ = Super Flex Top</i>\n
+        The higher the number the more flexible the mast is in the upper half relative to the bottom.
+        The Flex Top masts, more flexible near the top, are build following different criteria with
+        respect to the Hard Top, stiffer near the top.\n
+FLEX is calculated as a percentage ratio between:\n
+        - the difference between the deformations taken respectively at 1/4 of L from the TOP and the Bottom;\n
+        - the deformation of the mast in its middle;\n
+        when the mast is loaded with a weight of 30Kg in its middle.
+    </string>
+    <string name="Mess_Help_02">
+        <b>Stiffness (IMCS)</b>\n
+
+        Stiffness, commonly referred to as IMCS (Indexed Mast Check System), is an indication of how much
+        a mast bends when it is loaded.
+        Normally the IMCS varies from 6 to 38. The higher the IMCS the stiffer the mast. Most of the mast brands
+        usually adopt standard values of IMCS with reference to standard lengths. For instance often 400cm masts
+        have IMCS 19, whereas 430cm masts have IMCS 21 and 490cm masts have IMCS 29. It is easy to
+        realize that these different masts of different lengths, have all a tipical MCS of 25 (which
+        in turn shows that almost any mast has the same deformation in the middle).\n
+
+        The numerical value of the IMCS results from the ratio between:
+        - the length of the mast raised to the power of three;
+        - the product of 460 (or 465) squared and the deformation in the middle
+        when the mast is loaded with a weight of 30kh in its middle.
+    </string>
+    <string name="Mess_Help_03"><b>Carbon percentage content</b>\n
+        The content of carbon fiber (with respect to the concomitant content of different kinds of other
+        fibers such as glass) varies usually between 30 and 100. The higher the content of carbon fiber, the
+        more reactive and lighter the rig will be which, in turn, will result in a better control.
+        As a result, the sails performances will improve when masts with high carbon percentage are used.
+    </string>
+    <string name="TV_Lref">IMCS Reference Length [cm]</string>
+</resources>
